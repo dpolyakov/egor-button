@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dpolyakov.egorbutton"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f94b10b4-fe2f-44bb-90f0-7ba236ca7c49"
+      }
+    },
+    "owner": "dpolyakov",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f94b10b4-fe2f-44bb-90f0-7ba236ca7c49"
     }
   }
 }
